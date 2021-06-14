@@ -26,9 +26,6 @@ def display_inputs(inputs):
             elem_mass = float(input("element mass: "))
             percents = float(input("element percentage of mass: "))
 
-            # f_amnt = [str(elem_types[i])]
-            # m_amnt = [float(elem_mass[i])]
-
             if elem_types and elem_mass and percents:
                 store_elem_name_mass.append(elem_types)
                 store_elem_name_mass.append(elem_mass)
